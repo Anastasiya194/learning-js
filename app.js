@@ -73,33 +73,13 @@
 // Область видимости переменной  - это часть программы где переменная определенна и доступна, делятся на глобальные и локальные. Глобальные называются все переменные  объявленные вне какой-либо функции.
 // Переменные  объявленные внутри функции являются локальеными.
 
-// alert("h1");
-// function f1(){
-//   alert("Вы нажали кнопку");
-// }
+// var oneOne = 1;  // глобальная переменная
+// var globall = 24444; ..глобальная переменная
 
-// function anonym() {
-//   console.log("we frends");
+// function func() {
+// var two = 2; //Локальная переменная 
 // };
-// anonym();
 
-// function carRiders() {
-//   console.log()
-// }
-// function sayHello(firstName = "Default", lastName = "Default") {
-//   console.log(firstName, lastName);
-//   console.log("hello world");
-//   return 'Hello ${firstName} ${lastName}';
-// }
-
-// function displayResault() 
-// {
-//   var length = document.getElementById('length').value;
-//   var width = document.getElementById('width').value;
-//   var height = document.getElementById('height').value;
-
-//   document.getElementById('result').innerHTML = length * width * height;
-// }
 
 // Циклы** это ещё один вид инструкции и они нужны для многократного повторения каких то отдельных видов инструкций
 // for (инициализация; тест истина или ложь; инкримент проверяем счётчик) тело цикла(является составной инструкцией, но может быть обычной инструкцие и даже пустой)
@@ -126,36 +106,6 @@
 // var i = 0;
 // do console.log(i++); while (i < 10)
 
-
-
-//  let res = sayHello("Nastya", "Smirnova");
-//  let res2 = sayHello("Ivan", "Smirnov") ;
-// let res3 = sayHello(null);
-// console.log(res3);
-// var number = 3;
-// console.log(number);
-// number = 6;
-// console.log(number);
-// function home() {
-//   var name = number = 9;
-//   console.log(name);
-// }
-// home();
-// console.log(number);
-// let a, b;
-//  a = 2;
-//  b = 4;
-// console.log(a+b);
-// let a = b = 20;
-// console.log(a+b)
-// let a = 2;
-// let b = 4;
-// let c = 10;
-
-// console.log(a);
-// console.log(b);
-// // b = c;
-// // console.log(a + b);
 
 
 // if(car.color == 'red') {
